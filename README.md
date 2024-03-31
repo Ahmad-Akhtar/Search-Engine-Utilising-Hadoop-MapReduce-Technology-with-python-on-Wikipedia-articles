@@ -1,11 +1,6 @@
 # Search Engine Utilising Hadoop MapReduce Technology with python on Wikipedia articles
-This repository has files used for developing a Naive Search Engine Utilising Apache Hadoop MapReduce Technology on a dataset in comma-separated values (CSV) format containing around 5 million Wikipedia articles provided by Wikimedia, as part of an assignment for the Fundamental of Big Data Analytics (DS2004) course
+This repository has files used for developing a Naive Search Engine Utilising Apache Hadoop MapReduce Technology on a dataset in comma-separated values (CSV) format containing around 5 million Wikipedia articles provided by Wikimedia.
 
-# Collaborators :
-The group members for this assignment are :
-- Ahmad Akhtar 21I-1655
-- Inam ul Haq 22I-1906
-- Abdurrehman 22I-1963
 
 # Dependencies: 
 Important Libraries required for the preprocessing of this data and to create a sample data are listed below :
