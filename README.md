@@ -8,6 +8,10 @@ The group members for this assignment are :
 - Abdurrehman 22I-1963
 
 
+# Data Set 
+You can download data set from this link 
+"https://drive.google.com/file/d/1lGVGqzF5CNWaoV-zoz8_mlThvHwMgcsP/view"
+
 # Dependencies: 
 Important Libraries required for the preprocessing of this data and to create a sample data are listed below :
 
@@ -39,5 +43,15 @@ The code reads and processes a CSV file containing textual data, identifying dup
 4. Compute the Inverse Document Frequency (IDF) scores for each article using the code available in the score folder, leveraging the output from TF and DF mappers and reducers.
 
 # Vector Space Model Creation:
-
 Convert the resulting array into a Vector Space Model (VSM) by employing the code located in the vsm folder.
+
+# Running on Hadoop:
+To run the MapReduce jobs on Hadoop, follow these steps:
+
+1. Ensure you have Hadoop installed and configured properly on your system.
+2. Ensure you have python3 installed in you system.
+3. Upload your input data to the Hadoop Distributed File System (HDFS).
+4. Compile your MapReduce code into a JAR file.
+5. Use the Hadoop command line interface to submit your MapReduce job, specifying the input and output paths, and the JAR file containing your code.
+
+
