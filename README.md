@@ -12,19 +12,21 @@ The group members for this assignment are :
 You can download data set from this link 
 "https://drive.google.com/file/d/1lGVGqzF5CNWaoV-zoz8_mlThvHwMgcsP/view"
 
-# Dependencies:
-Important libraries required for the preprocessing of this data and to create a sample data are listed below:
+# Dependencies: 
+Important Libraries required for the preprocessing of this data and to create a sample data are listed below :
 
-- Jupyter Notebook (install)
-- librosa (install)
-- IPython (install)
-- pandas (install)
-- NumPy (install)
-- SciPy (install)
-- tqdm (install)
-- scikit-learn (install)
-- Annoy (install)
-- Flask (install)
+- import pandas as pd
+- import nltk
+- import string
+- import time
+- from tqdm import tqdm
+- import numpy as np
+- import os
+- import tempfile
+- import nltk
+- from nltk.corpus import stopwords
+- from nltk.tokenize import word_tokenize
+
 
 
 # Pre Processing data:
